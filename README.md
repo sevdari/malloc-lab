@@ -3,14 +3,15 @@ This repository also contains my solution to the Malloc Lab assignment from the 
 
 The allocator uses an implicit free list with 8-byte alignment, headers and footers to track block size and allocation status, first-fit search, block splitting on allocation and coalescing on free. When no suitable free block is found, the heap is extended and merged with the last block if possible. This keeps fragmentation low while keeping the implementation simple and fully compliant with the Malloc Lab interface.
 
+Below you can find the original handout specification. I have also included the original `mm.c` file which you can find in `mm_old.c`.
+
 
 #####################################################################
-# CS:APP Malloc Lab
-# Handout files for students
-#
-# Copyright (c) 2002, R. Bryant and D. O'Hallaron, All rights reserved.
-# May not be used, modified, or copied without permission.
-#
+CS:APP Malloc Lab
+Handout files for students
+
+Copyright (c) 2002, R. Bryant and D. O'Hallaron, All rights reserved.
+May not be used, modified, or copied without permission.
 ######################################################################
 
 ***********
