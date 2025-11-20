@@ -7,11 +7,13 @@ Below you can find the original handout specification. I have also included the 
 
 
 #####################################################################
+
 CS:APP Malloc Lab
 Handout files for students
 
 Copyright (c) 2002, R. Bryant and D. O'Hallaron, All rights reserved.
 May not be used, modified, or copied without permission.
+
 ######################################################################
 
 ***********
