@@ -1,0 +1,12 @@
+*.o
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VS Code workspace files
+.vscode/
+*.code-workspace
+
+test*
