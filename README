@@ -1,3 +1,9 @@
+# Malloc Lab ETHZ SPCA
+This repository also contains my solution to the Malloc Lab assignment from the course *Systems Programming and Computer Architecture* at ETH Zurich. My implementation can be found in `mm.c`.
+
+The allocator uses an implicit free list with 8-byte alignment, headers and footers to track block size and allocation status, first-fit search, block splitting on allocation and coalescing on free. When no suitable free block is found, the heap is extended and merged with the last block if possible. This keeps fragmentation low while keeping the implementation simple and fully compliant with the Malloc Lab interface.
+
+
 #####################################################################
 # CS:APP Malloc Lab
 # Handout files for students
